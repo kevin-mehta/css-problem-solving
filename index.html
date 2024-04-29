@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
+
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <!--
       Need a visual blank slate?
       Remove all code in `styles.css`!
     -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="script.js"></script>
+</head>
+
+<body>
+  <nav>
+    <a href="/" aria-current="page">Home</a>
+    <a href="/page2.html">Other page</a>
+  </nav>
+  <main>
+    <h1>Home page</h1>
+    <div class="post__col">
+      <div class="post__row-title">
+        <h2><strong>Lorem ipsum title</strong></h2>
+      </div>
+      <div class="post__row-details">
+        <div class="post__col-img">
+          <img class="post__img" src="https://public.karat.io/content/front-end-coding-exercises/post-image.png"
+            alt="Test Image" />
+        </div>
+        <div class="post__col-details">          
+          <p class="post__col-details-desc">In publishing and graphic design, Lorem ipsum is a placeholder
+            text commonly used to demonstrate the visual form of a document or a
+            typeface without relying on meaningful content. Lorem ipsum may be used as
+            a placeholder before the final copy is available.</p>
+          <p class="post__col-details-meta">Published: 12/12/2012 | Views: 22</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
 </html>

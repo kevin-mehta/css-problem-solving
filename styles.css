@@ -44,3 +44,49 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+.post__col {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+
+.post__col .post__row-title {
+  flex-direction: row;
+  /* border: 1px solid green; */
+  align-self: center;
+}
+
+.post__col .post__row-details {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid blue; */
+  justify-content: space-between;
+}
+
+.post__col .post__row-details .post__col-img {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+.post__col .post__row-details .post__col-img .post__img {
+  width: inherit;
+  aspect-ratio: 1 / 1;
+}
+
+.post__col .post__row-details .post__col-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+}
+
+.post__col .post__row-details .post__col-details .post__col-details-desc {
+  margin-top: 0;
+}
+
+.post__col .post__row-details .post__col-details .post__col-details-meta {
+  align-self: end;
+  margin-bottom: 0;
+}
